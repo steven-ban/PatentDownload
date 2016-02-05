@@ -2,6 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+# pic file, it is not useful
+*.jpg
+*.png
+*.jpeg
+*.gif
+
 # Folder config file
 Desktop.ini
 
