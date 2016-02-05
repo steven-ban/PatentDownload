@@ -1,0 +1,9 @@
+function zl_xm(an, db, index) {
+	var zlxm = document.getElementById("zlxm");
+	zlxm.strSources.value = db;
+	zlxm.strWhere.value = "…Í«Î∫≈='" + an + "' and " + index + "=1";
+	zlxm.strLicenseCode.value = "";
+	zlxm.pageSize.value = "6";
+	zlxm.pageNow.value = "1";
+	zlxm.submit();
+}
